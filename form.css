@@ -1,0 +1,271 @@
+body{
+
+    background-color: #0090F9;
+        font-family: 'Dosis', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header{
+        background: black;
+        width: auto;
+        height: 70%;
+        margin: auto;
+        position: relative;
+    
+    }
+    
+    .navigasi{
+        margin:  auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    ul{
+        flex: 1;
+        text-align: right;
+        }
+        
+        ul li{
+            
+            display: inline-block;
+            list-style: none;
+            margin: 0 25px;
+        }
+        
+        ul li a{
+            text-decoration: none;
+            color:#f5f5f5;
+            padding: 0 10px;
+            position: relative;
+        }
+        
+        ul li :hover{
+            color: #0090F9;
+    }
+
+        /* contain */
+
+    .container{
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .contain{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+    }
+    
+    .contain_home{
+        float: right;
+        width: 55%;
+    }
+    
+    .FISH_Pic{
+        float: left;
+        width: 40%;
+    }
+    
+    .FISH_Pic img{
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .contain_home .desciption h3{
+        margin-top:20px;
+        line-height: 1.5;
+        
+    }
+
+    .motivational{
+        color: white;
+    }
+    
+
+    .Join_us{
+        width: 600px;
+        background-color: rgb(0, 0, 0, 6);
+        margin: auto;
+        color: #ffffff;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    .Background_form{
+        background-color: rgb(0, 0, 0, 0.5);
+        width: 600px;
+        margin: auto
+    }
+    
+    form{
+        padding: 10px;
+        
+    }
+    #name{
+        width: 100%;
+        height: 50px;
+    }
+    
+    .name{
+        margin-left: 25px;
+        margin-top: 30px;
+        width: 125px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .Name{
+        position: relative;
+        left: 200px;
+        top: -37px;
+        line-height: 40px;
+        width: 280px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+    
+    
+    .Email{
+        position: relative;
+        left: 200px;
+        top: -37px;
+        line-height: 40px;
+        width: 280px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+    
+    .NewPassword{
+        position: relative;
+        left: 200px;
+        top: -37px;
+        line-height: 40px;
+        width: 280px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555; 
+    }
+    
+    .DateOfBirth{
+        position: relative;
+        left: 200px;
+        top: -37px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555; 
+    }
+    
+    .option{
+        position: relative;
+        left: 200px;
+        top: -20px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        color: #555;
+        outline: none;
+        overflow: hidden; 
+    
+    }
+    
+    #Sex {
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+    }
+    
+    .radio{
+        display: inline-block;
+        padding-right: 70px;
+        font-size: 15px;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    button{
+        right: 700px;      
+        padding: 9px 25px;
+        background-color: rgb(230, 192, 25);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+    
+    button:hover{
+        background: rgb(255, 208, 0);
+    }
+
+    .radio{
+        color: white;
+        display: flex;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .contain{
+            width: 90%;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+        }
+    
+        .contain_home{
+            float: none;
+            width: 55%;
+            display: block;
+            margin: auto;
+        }
+    
+        .FISH_Pic{
+            float: none;
+            width: 55%;
+            display: block;
+            margin: auto;
+        }
+    
+        .contain_home .motivational h1{
+            text-align: center;   
+        }
+    
+        .contain_home .desciption h3{
+        text-align: left;
+        margin-top:20px;
+       
+        
+        
+        }
+    
+        botton{
+            display: inline-block;
+            background: rgb(230, 192, 25);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 20px 40px ;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            border-bottom: 3px solid rgb(197, 167, 35);
+            
+        }
+        
+        botton:hover{
+            background: rgb(255, 208, 0);
+        }
+    
+    }
+
